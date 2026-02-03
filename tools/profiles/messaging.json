@@ -1,0 +1,23 @@
+{
+  "name": "messaging",
+  "description": "Communication-focused access. For coordinators and agents that don't need code access.",
+  "allow": [
+    "read",
+    "glob",
+    "grep",
+    "ls",
+    "group:messaging",
+    "notify"
+  ],
+  "deny": [
+    "write",
+    "edit",
+    "exec",
+    "shell",
+    "group:runtime",
+    "browser",
+    "gateway",
+    "nodes",
+    "cron"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "secure-dev",
+  "description": "Development access without external network or subprocess spawning. For security-conscious environments.",
+  "profile": "coding",
+  "deny": [
+    "browser",
+    "canvas",
+    "nodes",
+    "cron",
+    "gateway",
+    "fetch",
+    "websearch"
+  ]
+}

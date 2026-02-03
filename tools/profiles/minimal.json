@@ -1,0 +1,20 @@
+{
+  "name": "minimal",
+  "description": "Read-only access with limited tools. Safe default for untrusted or new agents.",
+  "allow": [
+    "read",
+    "glob",
+    "grep",
+    "ls"
+  ],
+  "deny": [
+    "write",
+    "edit",
+    "exec",
+    "shell",
+    "browser",
+    "gateway",
+    "nodes",
+    "cron"
+  ]
+}

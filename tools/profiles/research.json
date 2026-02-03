@@ -1,0 +1,25 @@
+{
+  "name": "research",
+  "description": "Web access with read-only filesystem. For analysts and researchers.",
+  "allow": [
+    "read",
+    "glob",
+    "grep",
+    "ls",
+    "group:web",
+    "fetch",
+    "websearch",
+    "image"
+  ],
+  "deny": [
+    "write",
+    "edit",
+    "exec",
+    "shell",
+    "group:runtime",
+    "browser",
+    "gateway",
+    "nodes",
+    "cron"
+  ]
+}

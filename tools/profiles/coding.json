@@ -1,0 +1,22 @@
+{
+  "name": "coding",
+  "description": "Full development access. The default profile for most technical roles.",
+  "allow": [
+    "group:fs",
+    "group:runtime",
+    "group:git",
+    "read",
+    "write",
+    "edit",
+    "exec",
+    "glob",
+    "grep",
+    "ls"
+  ],
+  "deny": [
+    "browser",
+    "gateway",
+    "nodes",
+    "cron"
+  ]
+}

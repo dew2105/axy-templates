@@ -1,0 +1,29 @@
+{
+  "name": "full",
+  "description": "All tools enabled. Use with caution for highly trusted agents only.",
+  "allow": [
+    "group:fs",
+    "group:web",
+    "group:runtime",
+    "group:git",
+    "group:messaging",
+    "read",
+    "write",
+    "edit",
+    "exec",
+    "shell",
+    "glob",
+    "grep",
+    "ls",
+    "fetch",
+    "websearch",
+    "browser",
+    "image",
+    "canvas",
+    "gateway",
+    "nodes",
+    "cron",
+    "notify"
+  ],
+  "deny": []
+}
